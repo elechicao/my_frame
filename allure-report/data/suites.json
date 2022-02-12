@@ -1,0 +1,312 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "main_interface",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "test_once[GET-http://video.woniulab.com/usercenter/pay--in-余额说明-200.0]",
+        "uid" : "22cc8697c56b52af",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268158,
+          "stop" : 1642837268158,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'余额说明'", "''", "'GET'", "200.0", "'http://video.woniulab.com/usercenter/pay'" ]
+      }, {
+        "name" : "test_once[GET-http://video.woniulab.com/order/10/2--in-10￥-200.0]",
+        "uid" : "94699c02ccae0ede",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268744,
+          "stop" : 1642837268744,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'10￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/10/2'" ]
+      }, {
+        "name" : "test_once[GET-http://video.woniulab.com/order/20/2--in-20￥-200.0]",
+        "uid" : "2bf635137069b88d",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268751,
+          "stop" : 1642837268751,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'20￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/20/2'" ]
+      }, {
+        "name" : "test_once[GET-http://video.woniulab.com/order/50/2--in-50￥-200.0]",
+        "uid" : "cb15ebd73fa4757e",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268758,
+          "stop" : 1642837268758,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'50￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/50/2'" ]
+      }, {
+        "name" : "test_once[GET-http://video.woniulab.com/order/100/2--in-100￥-200.0]",
+        "uid" : "755493d3b7f33cfa",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268764,
+          "stop" : 1642837268764,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'100￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/100/2'" ]
+      }, {
+        "name" : "test_once[GET-http://video.woniulab.com/order/200/2--in-200￥-200.0]",
+        "uid" : "ca7aa361a4618e58",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268772,
+          "stop" : 1642837268772,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'200￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/200/2'" ]
+      }, {
+        "name" : "test_once[GET-http://video.woniulab.com/order/500/2--in-500￥-200.0]",
+        "uid" : "58f2c45b916c01ad",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268779,
+          "stop" : 1642837268779,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'500￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/500/2'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\": \"1\", \"money\": 10, \"type\": 2}-in-\"money\":10-200.0]",
+        "uid" : "c2e436883af290d9",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268786,
+          "stop" : 1642837268786,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":10'", "'{\"payWay\": \"1\", \"money\": 10, \"type\": 2}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"1\",\"money\":20,\"type\":1}-in-\"money\":20-200.0]",
+        "uid" : "90c7dd57a75947f0",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268793,
+          "stop" : 1642837268793,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":20'", "'{\"payWay\":\"1\",\"money\":20,\"type\":1}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"1\",\"money\":50,\"type\":3}-in-\"money\":50-200.0]",
+        "uid" : "552915e4c32778d5",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268802,
+          "stop" : 1642837268802,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":50'", "'{\"payWay\":\"1\",\"money\":50,\"type\":3}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"1\",\"money\":100,\"type\":4}-in-\"money\":100-200.0]",
+        "uid" : "280eea399f1b77b8",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268809,
+          "stop" : 1642837268809,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":100'", "'{\"payWay\":\"1\",\"money\":100,\"type\":4}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"1\",\"money\":200,\"type\":2}-in-\"money\":200-200.0]",
+        "uid" : "bd95f8a88a67f337",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268816,
+          "stop" : 1642837268816,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":200'", "'{\"payWay\":\"1\",\"money\":200,\"type\":2}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"0\",\"money\":500,\"type\":2}-in-\"money\":500-200.0]",
+        "uid" : "a59193e628328661",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268836,
+          "stop" : 1642837268836,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":500'", "'{\"payWay\":\"0\",\"money\":500,\"type\":2}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"0\",\"money\":1000,\"type\":2}-in-\"money\":1000-200.0]",
+        "uid" : "c4bef36b2ca8e1eb",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268843,
+          "stop" : 1642837268843,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":1000'", "'{\"payWay\":\"0\",\"money\":1000,\"type\":2}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[post_json-http://video.woniulab.com/order/getQRCodeBalance-{\"payWay\":\"0\",\"money\":10000,\"type\":2}-in-\"money\":10000-200.0]",
+        "uid" : "45ae9913970795cf",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268850,
+          "stop" : 1642837268850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"money\":10000'", "'{\"payWay\":\"0\",\"money\":10000,\"type\":2}'", "'post_json'", "200.0", "'http://video.woniulab.com/order/getQRCodeBalance'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 1, \"limit\": 10, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.00]",
+        "uid" : "40bb33a8ebb5ab4e",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268857,
+          "stop" : 1642837268857,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 1, \"limit\": 10, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 1, \"limit\": 20, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.0]",
+        "uid" : "7b6795e8cc2486b6",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268863,
+          "stop" : 1642837268863,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 1, \"limit\": 20, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 1, \"limit\": 50, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.0]",
+        "uid" : "9588c48b42235e1",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268870,
+          "stop" : 1642837268870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 1, \"limit\": 50, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 3, \"limit\": 10, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.0]",
+        "uid" : "dba0f83e7f272d8e",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268877,
+          "stop" : 1642837268877,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 3, \"limit\": 10, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 6, \"limit\": 10, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.0]",
+        "uid" : "1d93c81bc34a8ea2",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268883,
+          "stop" : 1642837268883,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 6, \"limit\": 10, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 9, \"limit\": 10, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.0]",
+        "uid" : "be052900497586d3",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268890,
+          "stop" : 1642837268890,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 9, \"limit\": 10, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 1, \"limit\": 10, \"status\": None, \"type\": 2}-in-\"msg\":\"操作成功\"-200.01]",
+        "uid" : "b5a9d31da5969bd8",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268897,
+          "stop" : 1642837268897,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 1, \"limit\": 10, \"status\": None, \"type\": 2}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      }, {
+        "name" : "test_once[POST-http://video.woniulab.com/usercenter/userOrderAllList-{\"page\": 1, \"limit\": 10, \"status\": None, \"type\": 8}-in-\"msg\":\"操作成功\"-200.0]",
+        "uid" : "ad46d7884cc480bb",
+        "parentUid" : "eb0a2ca87d78968a3857a7d074179d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642837268904,
+          "stop" : 1642837268904,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'in'", "'\"msg\":\"操作成功\"'", "'{\"page\": 1, \"limit\": 10, \"status\": None, \"type\": 8}'", "'POST'", "200.0", "'http://video.woniulab.com/usercenter/userOrderAllList'" ]
+      } ],
+      "uid" : "eb0a2ca87d78968a3857a7d074179d56"
+    } ],
+    "uid" : "faed760e41dbde3dcb8e7856957379d2"
+  } ]
+}

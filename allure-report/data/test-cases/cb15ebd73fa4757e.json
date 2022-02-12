@@ -1,0 +1,79 @@
+{
+  "uid" : "cb15ebd73fa4757e",
+  "name" : "test_once[GET-http://video.woniulab.com/order/50/2--in-50￥-200.0]",
+  "fullName" : "main_interface.Test#test_once",
+  "historyId" : "5ec6c445ebb470049117802c8210303c",
+  "time" : {
+    "start" : 1642837268758,
+    "stop" : 1642837268758,
+    "duration" : 0
+  },
+  "description" : "\n        利用parametrize装饰器实现参数化，每次传入一条用例，进行测试。\n        :param request_method: 请求方法\n        :param url: 接口地址\n        :param param: 参数\n        :param assert_method: 断言方法\n        :param expect: 预期结果\n        :param status_code: 状态码\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    利用parametrize装饰器实现参数化，每次传入一条用例，进行测试。\n    :param request_method: 请求方法\n    :param url: 接口地址\n    :param param: 参数\n    :param assert_method: 断言方法\n    :param expect: 预期结果\n    :param status_code: 状态码\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'data'",
+  "statusTrace" : "self = <class 'main_interface.Test'>\n\n    def setup_class(self):\n>       self.s, self.headers = self.session_login()\n\nmain_interface.py:11: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    @staticmethod\n    def session_login():\n        \"\"\"\n        登录并获取session对象\n        :return: session对象， 可能要用到的请求头\n        \"\"\"\n        _s = requests.Session()\n        _s.get('http://video.woniulab.com/')\n        _param = {\"tel\": \"13122222222\", \"password\": \"123456\", \"captcha\": \"0000\", \"loginType\": 1}\n        _resp = _s.post('http://video.woniulab.com/sys/user/login', json=_param)\n>       _token = _resp.json()['data']['accessToken']\nE       KeyError: 'data'\n\nmain_interface.py:23: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "main_interface"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "PC-20190222TDVX"
+  }, {
+    "name" : "thread",
+    "value" : "7072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main_interface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_method",
+    "value" : "'in'"
+  }, {
+    "name" : "expect",
+    "value" : "'50￥'"
+  }, {
+    "name" : "param",
+    "value" : "''"
+  }, {
+    "name" : "request_method",
+    "value" : "'GET'"
+  }, {
+    "name" : "status_code",
+    "value" : "200.0"
+  }, {
+    "name" : "url",
+    "value" : "'http://video.woniulab.com/order/50/2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cb15ebd73fa4757e.json",
+  "parameterValues" : [ "'in'", "'50￥'", "''", "'GET'", "200.0", "'http://video.woniulab.com/order/50/2'" ]
+}
